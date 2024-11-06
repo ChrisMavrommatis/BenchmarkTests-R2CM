@@ -7,6 +7,8 @@ class Program
     static void Main(string[] args)
     {
         BenchmarkRunner.Run<FindOneWithinALoop>();
-        //BenchmarkRunner.Run<CollectionsAllocations>();
+        // BenchmarkRunner.Run<CollectionsAllocations>();
+        // BenchmarkRunner.Run<ItemsStructureAllocations>();
+        // BenchmarkRunner.Run<ItemsRotationAllocation>();
     }
 }
